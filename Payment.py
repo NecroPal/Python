@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 class Payment(ABC):
     @abstractmethod
-    def pay(self):
+    def pay():
         pass
 class UPI(Payment):
     def pay(self):
